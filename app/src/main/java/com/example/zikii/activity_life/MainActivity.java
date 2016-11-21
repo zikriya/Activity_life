@@ -16,18 +16,8 @@ static int count=0;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     tv=(TextView) findViewById(R.id.Counter);
-        //tv.setOnClickListener(new On);
-    //tv.setText(""+count);
     }
 
-    public void next(View view){
-        Intent in=new Intent(MainActivity.this,Second.class);
-        startActivity(in);
-          //show();
-    }
-public void show(){
-    //tv.setText("updated");
-}
     @Override
     protected void onStart() {
         super.onStart();

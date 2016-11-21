@@ -9,22 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.zikii.activity_life.MainActivity">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Next"
-        android:id="@+id/next"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="next"/>
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="0"
         android:textSize="430px"
         android:textAlignment="center"
-
         android:textColor="@color/colorPrimaryDark"
         android:id="@+id/Counter"
         android:layout_below="@+id/next"
